@@ -7,7 +7,7 @@ Resources:
       HealthCheckConfiguration: 
         Path: "/health"
         Protocol: "HTTP"
-      ServiceName: "App Runner Demo"
+      ServiceName: "AppRunnerDemo"
       SourceConfiguration: 
         ImageRepository: 
           ImageConfiguration:
