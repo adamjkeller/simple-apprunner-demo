@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: CloudFormation template that deploys demo app to App Runner
+Resources:
+  Service:
+    Type: AWS::AppRunner::Service
+    Properties: 
+      HealthCheckConfiguration: 
+        Path: "/health"
+        Protocol: "HTTP"
+      InstanceConfiguration: 
+        InstanceConfiguration
+      ServiceName: "App Runner Demo"
+      SourceConfiguration: 
+        ImageRepository: 
+          ImageConfiguration:
+            Port: "8080"
+          ImageRepositoryType: "ECR_PUBLIC"  
+          ImageIdentifier: "public.ecr.aws/f0j5z9b5/apprunner-api-demo:latest"
