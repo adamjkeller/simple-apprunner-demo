@@ -16,3 +16,7 @@ def health():
 @app.get("/")
 def root():
     return JSONResponse(status_code=status.HTTP_200_OK, content="Hello from app runner!")
+
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8080, log_level="info")
