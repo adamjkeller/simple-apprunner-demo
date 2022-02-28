@@ -160,12 +160,12 @@ If you want to have a custom domain for your service (for example api.example.co
    We have a choice of which registry we want to use as our image provider: Amazon ECR and Amazon ECR Public.
    Go ahead and select Amazon ECR Public, and in the Container image URI field, add the following:
 
-`public.ecr.aws/f0j5z9b5/apprunner-api-demo:4ae29eb`
+- `public.ecr.aws/f0j5z9b5/apprunner-api-demo:4ae29eb`
 
-Note that we can not enable automated deployments for public images.
-If you use a private image in ECR, you need to add a service role to allow App Runner to pull the image on your behalf, and then you can choose to have automated or manual deployments.
+- Note that we can not enable automated deployments for public images.
+  If you use a private image in ECR, you need to add a service role to allow App Runner to pull the image on your behalf, and then you can choose to have automated or manual deployments.
 
-Click Next.
+- Click Next.
 
 ![Step 1](./images/step_1_source_image.png)
 
