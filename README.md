@@ -137,7 +137,7 @@ Things you can do here:
 - Track changes in the number of used and unused instances.
 - Choose Add to dashboard or use the menu on a specific graph to go to the CloudWatch console for further analysis.
 
-#### Configuration and Custom Domains
+##### Configuration and Custom Domains
 
 Configuration shows all of the current settings configured for your service. This is where you can make any changes if needed.
 If you want to have a custom domain for your service (for example api.example.com), the custom domain section is where you can set this up.
