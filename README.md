@@ -17,7 +17,7 @@
 
 1. Let's start by navigating to the AWS App Runner [Console](https://console.aws.amazon.com/apprunner/home).
 
-2. Next, let's create "Create an App Runner service"
+2. Next, select "Create an App Runner service"
 
 ![App Runner Console](./images/apprunner_console.png)
 
@@ -41,7 +41,7 @@
 - Select the repository that you forked (simple-apprunner-demo)
 - Choose main for the branch
 
-8. Deployment settings is where we can select the deployment mechanism for our App Runner service. Once you select, click Next.
+8. The deployment settings are where we can select the deployment mechanism for our App Runner service. Once you select, click Next.
 
 - Automatic will enable continuous deployment every time a commit is pushed to the main branch.
 - Manual will require the user to trigger a deployment via the console or AWS CLI. (Note that there is a fee associated with automated deployments, please see the pricing docs for more details.)
@@ -102,7 +102,7 @@
 
 12. That's it! Keep an eye on the deployment process and once it's done, navigate to the URL provided on the service overview page and you should see the app up and running!
 
-![Complete](./images/step_1.png)
+![Complete](./images/service_complete.png)
 
 ### Source Image Based Service
 
