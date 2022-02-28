@@ -100,9 +100,47 @@
 11. Once you've configured the service settings, scroll to the bottom of the page and click Next.
     Feel free to review the configuration, and when done click `Create & Deploy`.
 
-12. That's it! Keep an eye on the deployment process and once it's done, navigate to the URL provided on the service overview page and you should see the app up and running!
+12. That's it! Keep an eye on the deployment process and once it's done, navigate to the URL provided on the service overview page under `default domain` and you should see the app up and running!
 
 ![Complete](./images/service_complete.png)
+
+13. Feel free to navigate around and review the different features for the service.
+    In the console we can find the following:
+
+##### Logs
+
+- Event log: The event log shows all events related to your app runner service. Note that this is not where your application logs live.
+- Deployment logs: The build and deployment outputs are logged here. Good for troubleshooting build issues.
+- Application logs: All of the stderr/stdout logging for your application will fall under Application logs. This is where you will troubleshoot application related issues post deployment.
+
+##### Activity
+
+View your service activity -— a journal of operations like service creation, repository deployment, and service pause.
+
+An App Runner service is a running version of your web application.
+
+Things you can do here:
+
+- See a list of service operations, their time range, and their current (or final) status.
+- Find operations by entering a search term to scope down the list.
+- Choose any listed operation to see or download its log.
+
+##### Metrics
+
+Track metrics related to the entire App Runner service (as opposed to detailed Instance metrics).
+
+An App Runner service is a running version of your web application.
+
+Things you can do here:
+
+- See HTTP connection and request metrics for your web application.
+- Track changes in the number of used and unused instances.
+- Choose Add to dashboard or use the menu on a specific graph to go to the CloudWatch console for further analysis.
+
+#### Configuration and Custom Domains
+
+Configuration shows all of the current settings configured for your service. This is where you can make any changes if needed.
+If you want to have a custom domain for your service (for example api.example.com), the custom domain section is where you can set this up.
 
 ### Source Image Based Service
 
