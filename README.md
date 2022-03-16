@@ -13,6 +13,10 @@
 
 3. Follow the path that you'd wish to continue with below.
 
+To watch the walkthrough, check out the video:
+
+[![CFTC Video](https://img.youtube.com/vi/hWFciCd1FRY/0.jpg)](https://cftc.info/3u3CciX)
+
 ### Source Code Based Service
 
 <details><summary> Click to Expand! </summary>
